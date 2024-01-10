@@ -18,6 +18,7 @@ The Image to ASCII Converter is a web-based project that allows users to convert
 4. Download the converted ASCII art.
 
 ## Screenshots
+![Web capture_9-1-2024_112759_127 0 0 1](https://github.com/Hammadu696/Image-to-ASCII/assets/132342505/2fe45cc2-fe07-4beb-b23d-534c68b03787)
 
 
 ---
