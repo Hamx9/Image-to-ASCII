@@ -1,0 +1,103 @@
+* {
+  font-family: 'Times New Roman', Times, serif;  
+}
+
+.code {
+  margin: 0;
+  height: 100%;
+  display: flex;
+}
+
+.container {
+  flex: 1;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Align items vertically */
+}
+
+canvas {
+  border: 0;
+  margin-bottom: 10px;
+}
+
+.controls {
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+#ascii {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.input-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #598188; /* Green background color */
+  color: white; /* White text color */
+}
+
+.input-button:hover {
+  background-color: #d1d1d1;
+}
+
+.additional-text {
+  margin-top: 80px;
+  flex: 1; /* Take remaining space */
+  padding: 20px;
+  background-color: transparent;
+  text-align: justify;
+  line-height: 1.6; /* Adjust line spacing */
+}
+
+.additional-text h2 {
+  font-size: 24px; /* Increase heading size */
+  margin-bottom: 10px; /* Add some bottom margin to the heading */
+}
+
+.additional-text p {
+  font-size: 18px; /* Increase paragraph text size */
+  margin-bottom: 12px; /* Add some bottom margin to paragraphs */
+}
+a, a:hover, a:focus, a:active {
+  padding-top: 20px;
+  text-decoration: none;
+  color: rgb(53, 53, 53);
+  font-size: 15px;
+}
+
+ 
+.footer .short-link a,
+.footer .help-link a,
+.footer .contact-link a {
+    transition: .5s;
+}
+
+.footer .short-link a:hover,
+.footer .help-link a:hover,
+.footer .contact-link a:hover {
+    letter-spacing: 1px;
+}
+
+.footer .hightech-link a:hover {
+    background:  #598188;
+    border: 0;
+}
